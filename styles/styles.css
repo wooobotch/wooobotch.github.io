@@ -11,3 +11,27 @@ body{
 a{
     color: lightskyblue;
 }
+
+br, section{
+    box-shadow: 0 10px 20px rgba(15, 70, 125, 0.19), 0 6px 6px rgba(200, 200, 200, 0.23);
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+h1, h2, h3, h4{
+    text-align: center;
+}
+
+.clickeable{
+    box-shadow: 0 1px 2px rgba(135, 206, 250, 0.3), 0 1px 1px rgba(200, 200, 200, 0.2);
+    margin: 1em;
+}
+
+#perro, #menu-r {
+    display: inline-flex;
+}
+
+#menu{
+    width: auto;
+    align-self: center;
+}
