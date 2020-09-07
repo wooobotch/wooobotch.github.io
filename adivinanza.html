@@ -1,50 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Guessing Game</title>
-</head>
-<body>
-    <nav class="menu" id="top">
-        <ul>
-            <li class="clickeable"><a href="./index.html">Home</a></li>
-            <li class="clickeable"><a href="./indexBS.html">Home hecho con Bootstrap</a></li>
-            <li class="clickeable"><a href="https://wooobotch.github.io/">Mi Sitio en Github</a></li>
-        </ul>
-    </nav>
-    <nav class="ruta">
-        <ul>
-            <li class="clickeable"><a href="#bottom">Bottom</a></li>
-            <li class="clickeable"><a href="https://vercel.com/guides">El hosting</a></li>
-        </ul>
-    </nav>
-    <section>
-        <div id="recuadro">
-            <div id="opciones">
-                <form>
-                    <label><input type="button"></input></label>
-                    <label><input type="button"></input></label>
-                    <label><input type="button"></input></label>
-                    <label><input type="button"></input></label>
-                    <label><input type="button"></input></label>
-                </form>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Guessing Game</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="js/adivinanza.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    
+    </head>
+    <body>
+        <nav>
+            <div class="container" id="top">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="https://web.archive.org/web/20090730155332im_/http://www.geocities.com/lioncourt77/webgraphics/spacedog.gif" alt="perro">
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="row"><a href="./index.html">Home original</a></div>
+                        <div class="row"><a href="./pepebs.html">Home mejorado</a></div>
+                        <div class="row"><a href="./form.html">Formulario</a></div>
+                    </div>
             </div>
-        </div>
-    </section>
-    <aside>
-        <h2>Aside Title</h2>
-        <p>Aside content</p>
-        <p>More aside content</p>
-    </aside>
-    <footer>
-        <nav id="bottom">
-            <ul>
-                <li class="clickeable"><a href="#top">Top</a></li>
-                <li class="clickeable"><a href="https://vercel.com/guides">El hosting</a></li>
-            </ul>
         </nav>
-        <div></div>
-    </footer>
-</body>
+        <br>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col">
+                        <form>
+                            <div class="form-group row">
+                                <div class="col-md-3">
+                                    <button type="submit" class="btn btn-light btn-lg" id="test_a">Respuesta A</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button type="submit" class="btn btn-light btn-lg" id="test_b">Respuesta B</button>
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="col-md-3">
+                                    <button type="submit" class="btn btn-light btn-lg" id="test_c">Respuesta C</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button type="submit" class="btn btn-light btn-lg" id="test_d">Respuesta D</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav id="bottom">
+                <ul>
+                    <li class="clickeable"><a href="#top">Top</a></li>
+                    <li class="clickeable"><a href="https://gifcities.org/">Muy importante</a></li>
+                </ul>
+            </nav>
+            <p id="pie">
+                Sin ningún derecho más que el especificado por estar en un repo en github y deployeado en githubpages.
+            </p>
+        </footer>
+    </body>
 </html>
