@@ -1,0 +1,64 @@
+html{
+    font-family: 'Roboto Slab', serif;;
+}
+
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+a{
+    color: lightskyblue;
+}
+
+br, section{
+    box-shadow: 3px 10px 20px rgba(15, 70, 125, 0.19), 3px 6px 6px rgba(200, 200, 200, 0.23);
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5{
+    text-align: center;
+    color: khaki
+}
+
+.clickeable{
+#    box-shadow: 0 1px 2px rgba(135, 206, 250, 0.3), 0 1px 1px rgba(200, 200, 200, 0.2);
+    margin: 1em;
+}
+
+#perro, #libro, #menu-r, #menu-l {
+    display: inline-flex;
+}
+
+#menu{
+    width: auto;
+    align-self: center;
+}
+
+#top{
+    margin-top: 1em;
+}
+
+header, aside, section, footer{
+    width: 80%;
+    margin: auto;
+}
+
+strong{
+    color: goldenrod
+}
+
+p{
+    text-indent: 1em;
+}
+
+img.button_img{
+    max-width: 74px;
+    height: auto;
+}
+
+.libro{
+    width: auto;
+    align-self: center;
+}
