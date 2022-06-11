@@ -41,7 +41,7 @@
         </div>
 	<div>
             <article>
-                <h2>Enlaces</h2>
+                <h2 id="links">Enlaces</h2>
                 <p>
 		    Antes de comenzar a tratar cada tema, dejo los enlaces de los recursos nombrados y de explicaciones de los mismos también. Prefiero hacerlo así porque si por alguna razón no simpatizaran con mis maneras o con mi persona, contarán al menos con qué hacer sus propias ideas y ponerlas en marcha.
 		</p>
@@ -61,6 +61,7 @@
             <h1>Manos al teclado: documentos</h1>
             <article>
                 <h2>Manejo de versiones de documentos</h2>
+		<h4>Git</h4>
                 <p>
 		    Existen herramientas que nos permiten trabajar de manera colaborativa sobre documentos, éstas se llaman herramientas de gestión de versiones.
                 </p>
@@ -88,6 +89,26 @@
 		</p>
 		<p>
 		    Configuramos nuestro <strong>email</strong> y <strong>usuario</strong> para git (no para github), en nuestro equipo.
+		</p>
+		<h4>Trabajo colaborativo</h4>
+		<p>
+		    Una vez que hayamos puesto en marcha todo puede que nos leguemos a preguntar cómo es que ésto puede ser de utilidad si podría compartir el enlace al archivo en <i>mi drive</i>.
+		</p>
+		<p>
+		    Tanto si el proyecto fuera nuestro como si fuera de alguien más, alcanza con <strong>clonarlo</strong> en nuestro equipo y continuar a partir de allí. El paso siguiente es agregar archivos o modificarlos y es ahora que comienza a verse interesante: sin considerar las modificaciones ni agregados, el proyecto solo se encuentra en la <strong>rama main</strong>, en algunos casos puede llamarse <strong>master</strong> o de alguna manera personalizada también. Seguramente haya más de una persona en el grupo o exista algún colaborador desconocido que hubiera visto nuestro repositorio y quisiera hacer algún aporte; es en este caso en el que aparecen más ramas.
+		</p>
+		<p>
+		    Las ramas pueden tener el nombre de nuestro antojo. Asimismo es prudente que tengan alguno que ayude a realizarles algún seguimiento, un nombre breve pero significativo. Por ejemplo, en un grupo donde las tareas están claramente definidas (que posteriormente puede que llamemos <strong>isues</strong>), cada rama será nombrada según la tarea a la que refieran; otro caso es el de un grupo donde cada individuo tiene algún conjunto de tareas que puede completar por su cuenta y entonces llamaría cada uno a su rama por su nombre.
+		</p>
+		<p>
+		    Para guardar el progreso e incorporarlo a nuestra rama debemos confirmar qué es lo que deseamos que se tenga en cuenta, <strong>add</strong>, y luego <i>firmaremos</i> esos cambios para subirlos al repositorio, lo que también se conoce como hacer <strong>commit</strong>. En este paso es conveniente agregar un mensaje que sintetice lo que se vaya a agregar, como un título; en la etapa de <i>commit</i> se genera un <i>hash</i>, que es una combinación única de caracteres generada en base a los cambios en el contenido y nuestra información para ayudar a git a reconocer quién <i>aporta</i> y cómo.
+		</p>
+		<p>
+		    Cada vez que una tarea o <i>issue</i> haya sido resuelta, quien la hubiera creado debe solicitar que sea incluída ora en la rama principal o <i>main</i> ora en otra rama (sí, puede crearse una rama a partir de otra pero optaremos por el camino más sencillo). Entonces alguien a cargo del repositorio controlará los cambios sugeridos y unirá ambas ramas(o de manera automatizada, véase <i><a href="">CI</a></i>). Ahora todo lo aceptado pasará a <i>formar parte de la rama principal</i> (acción que llamamos <strong>merge</strong>) y quienes trabajaran en otras deberán actualizarlas para contar con los últimos cambios también, a ésto se lo llama <strong>rebase</strong>.
+		</p>
+		<h4>Conclusión</h4>
+		<p>
+		    Ahora que tenemos lo básico de la mecánica del juego en mente, podemos tomar de referencia alguno de los <a href="#links">enlaces</a> al comienzo de éste documento.
 		</p>
             </article>
         <hr>
