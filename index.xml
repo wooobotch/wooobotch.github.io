@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ara ara ara</title>
+    <link>https://wooobotch.github.io/</link>
+    <description>Recent content on Ara ara ara</description>
+    <generator>Hugo</generator>
+    <language>es-ar</language>
+    <lastBuildDate>Sun, 28 Jul 2024 23:25:35 -0300</lastBuildDate>
+    <atom:link href="https://wooobotch.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sobre mí</title>
+      <link>https://wooobotch.github.io/whoami/</link>
+      <pubDate>Sun, 28 Jul 2024 23:25:35 -0300</pubDate>
+      <guid>https://wooobotch.github.io/whoami/</guid>
+      <description>Abraham Ezequiel Chalave ¿Quién soy? La respuesta es sí. Si hay mucha urgencia por saber más de mi persona lo óptimo es quedar para una entrevista. Una consulta gratuita: pueden preguntar por mí a alguien más.&#xA;¿Cómo se me detiene? Podemos dicutir los métodos, podemos enumerarlos. Lo seguro es que no se pierde nada intentando. Cualquier interés en colaborar conmigo o hacer de mí un colaborador de su proyecto es bienvenido.</description>
+    </item>
+  </channel>
+</rss>
