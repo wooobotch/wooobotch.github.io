@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ara ara ara</title>
-    <link>https://abrahamezequielchalave.com.ar/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Ara ara ara</description>
     <generator>Hugo</generator>
     <language>es-ar</language>
     <lastBuildDate>Wed, 14 Aug 2024 16:48:11 -0300</lastBuildDate>
-    <atom:link href="https://abrahamezequielchalave.com.ar/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Magia</title>
-      <link>https://abrahamezequielchalave.com.ar/magia/</link>
+      <link>http://localhost:1313/magia/</link>
       <pubDate>Wed, 14 Aug 2024 16:48:11 -0300</pubDate>
-      <guid>https://abrahamezequielchalave.com.ar/magia/</guid>
+      <guid>http://localhost:1313/magia/</guid>
       <description>Si alguna vez tuvieron un encuentro cercano del tercer tipo, pero con vendedores de autos, notarán que ésto se parece a lo opuesto. No tengo urgencia de vender nada, me preocuparía que así fuera.&#xA;Ésto se resuelve así, no hace falta gastar.&#xA;Productos ¡Mozo! Entramos y nos hicimos camino; estemos en la barra o en una mesa, queremos pedir.&#xA;La carta, por favor. Sopa de Letras&#xD;No se la veían venir (eso supongo).</description>
     </item>
     <item>
       <title>Abryfans</title>
-      <link>https://abrahamezequielchalave.com.ar/abryfans/</link>
+      <link>http://localhost:1313/abryfans/</link>
       <pubDate>Sat, 10 Aug 2024 14:36:13 -0300</pubDate>
-      <guid>https://abrahamezequielchalave.com.ar/abryfans/</guid>
-      <description>Abryfans abryFans&#xA;AbryFans BNA MAYO.VENUS.PATIN </description>
+      <guid>http://localhost:1313/abryfans/</guid>
+      <description>Busking Hora de gorrear Las cosas gratis son lindas. También es lindo el clima ciertos días o, en ocasiones, los cumplidos.&#xA;Una linda forma de reconocimiento es la de los días que se recibe cumplidos en forma de números UwU.&#xA;Para los menos avispados, estoy pasando la gorra, el espectáculo no terminó: pueden llevarse un pedacito de experiencia a sus compus.&#xA;BNA MAYO.VENUS.PATIN Hay números a los que todavía no nos acostumbramos, pero también se reciben.</description>
     </item>
     <item>
       <title>Sobre mí</title>
-      <link>https://abrahamezequielchalave.com.ar/whoami/</link>
+      <link>http://localhost:1313/whoami/</link>
       <pubDate>Sun, 28 Jul 2024 23:25:35 -0300</pubDate>
-      <guid>https://abrahamezequielchalave.com.ar/whoami/</guid>
+      <guid>http://localhost:1313/whoami/</guid>
       <description>Abraham Ezequiel Chalave ¿Quién soy? La respuesta es sí. Si hay mucha urgencia por saber más de mi persona lo óptimo es quedar para una entrevista. Una consulta gratuita: pueden preguntar por mí a alguien más.&#xA;¿Cómo se me detiene? Podemos dicutir los métodos, podemos enumerarlos. Lo seguro es que no se pierde nada intentando. Cualquier interés en colaborar conmigo o hacer de mí un colaborador de su proyecto es bienvenido.</description>
     </item>
   </channel>
